@@ -17,13 +17,14 @@
 h1 {
     font-size: 50px;
     font-weight: bolder;
+    padding-left: 10px;
 }
 
 h2 {
     font-size: 35px;
     font-weight: bold;
     text-decoration: underline;
-    padding: 15px 0px;
+    padding: 15px 10px;
 }
 
 header {
@@ -55,7 +56,7 @@ header nav ul li {
 }
 
 nav a:hover {
-    background-color: var(--burntorange);
+    background-color: var(--beige);
 }
 
 main {
@@ -128,7 +129,7 @@ div.applications a:hover {
     justify-content: space-evenly;
     align-content: center;
     flex-wrap: wrap;
-    padding: 0px 100px 0px 100px;
+    padding: 0px 75px 0px 75px;
 }
 
 .contact-me ul li {
@@ -148,4 +149,28 @@ footer {
     background-color: var(--salmon);
     font-weight: 600;
     padding: 25px 0px 25px 0px;
+}
+
+
+@media screen and (max-width: 1245px) {
+   main,
+   .contact-me {flex-direction: column;}
+
+    div.applications { width: 45%}
+
+}
+
+@media screen and (max-width: 768px) {
+    main,
+    header,
+    .me,
+    .app-list,
+    .contact-me ul {flex-direction: column;}
+
+    div.applications {width: 75%}
+
+    .me p {
+        padding-left: 0px;
+        padding-top: 10px;
+    }
 }
