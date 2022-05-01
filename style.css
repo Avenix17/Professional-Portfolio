@@ -3,7 +3,6 @@
     --beige: #f4e1d2;
     --salmon: #f18973;
     --burntorange: #bc5a45;
-
 }
 
 * {
@@ -77,6 +76,7 @@ section {
 .me p {
     padding-left: 20px;
 }
+
 .my-work {
     display: flex;
     flex-direction: column;
@@ -106,7 +106,7 @@ div.applications:nth-child(1) {
     flex-grow: 1;
 }
 
-div.applications  a  img {
+div.applications a img {
     width: 100%;
     height: 100%;
 } 
@@ -135,7 +135,7 @@ div.applications a:hover {
 .contact-me ul li {
     padding: 0px 50px 0px 50px;
     list-style-type: ">";
-    color: black;
+    color: #000000;
     font-size: 15px;
     font-weight: bold;
 }
@@ -156,7 +156,7 @@ footer {
    main,
    .contact-me {flex-direction: column;}
 
-    div.applications { width: 45%}
+    div.applications { width: 45%;}
 
 }
 
@@ -167,7 +167,7 @@ footer {
     .app-list,
     .contact-me ul {flex-direction: column;}
 
-    div.applications {width: 75%}
+    div.applications {width: 75%;}
 
     .me p {
         padding-left: 0px;
