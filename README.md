@@ -15,6 +15,10 @@ This repository is for a Profession Portfolio for Avyrie Fellows.
 
 ## Change Log
 
+### 2022-06-07
+
+* Inserted first project application for portfolio
+
 ### 2022-04-30
 
 * Created reset for reset.css
